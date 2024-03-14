@@ -33,7 +33,6 @@ cp .env.example .env
 ```
 Replace `YOUR_DISCORD_BOT_TOKEN_HERE` with your actual Discord bot token in the .env file.
 
-## Example
 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or improvements for the bot, feel free to open an issue or submit a pull request.
