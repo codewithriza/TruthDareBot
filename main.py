@@ -13,7 +13,8 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 
 # Create a bot instance
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='!',intents=discord.Intents.all())
+
 
 @bot.command(name='tod', help='Starts a game of Truth or Dare')
 async def truth_or_dare(ctx):
