@@ -27,10 +27,8 @@ pip install -r requirements.txt
 ```
 
 ### Configure the Bot
-Copy the .env.example file to .env and add your Discord bot token:
-```bash
-cp .env.example .env
-```
+Copy the .env.sample file to .env and add your Discord bot token:
+
 Replace `YOUR_DISCORD_BOT_TOKEN_HERE` with your actual Discord bot token in the .env file.
 
 
